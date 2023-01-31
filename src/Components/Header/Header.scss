@@ -1,0 +1,18 @@
+@import "../../themes/colors.scss";
+
+.Header {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background-color: $independence;
+
+    a{
+        text-decoration: none;
+        color: $alabaster;
+        margin: 4px;
+    }
+
+    a:hover{
+        color: $terra;
+    }
+}
